@@ -6,7 +6,7 @@ Configured reverse proxy and load balance
 * Instructions
   * After clone nginx project, go to nginx directory
   * Create image
-    * docker build -t mynginx3 .
+    * docker build -t mynginx_image1 .
   * To run docker
     * docker run --name mynginx3 -p 80:80 -p 8080:8080 -p 8001:8001 -p 8002:8002 -d  mynginx_image1
   * To run with docker-compose
