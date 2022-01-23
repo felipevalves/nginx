@@ -1,0 +1,10 @@
+FROM nginx
+
+WORKDIR app
+
+EXPOSE 80
+EXPOSE 8080
+EXPOSE 8001
+EXPOSE 8002
+
+COPY conf/*  /etc/nginx/conf.d

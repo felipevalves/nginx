@@ -1,0 +1,18 @@
+docker run --name mynginx2 -p 80:80 -p 8080:8080 -p 8001:8001 -p 8002:8002 -d nginx
+
+docker.exe exec -it mynginx2 /bin/sh
+
+
+-- diretorio conf nginx.conf
+/etc/nginx/
+-- diretorio conf
+/etc/nginx/conf.d
+
+-- diretorio logs
+/var/log/nginx
+
+-- diretorio html
+/usr/share/nginx/myserver02/html
+/usr/share/nginx/myserver01/html
+/usr/share/nginx/myserver/html
+
