@@ -9,5 +9,7 @@ Configured reverse proxy and load balance
     * docker build -t mynginx3 .
   * To run docker
     * docker run --name mynginx3 -p 80:80 -p 8080:8080 -p 8001:8001 -p 8002:8002 -d  mynginx_image1
+  * To run with docker-compose
+    * docker-compose up -d
   * To enter into container
-    * docker.exe exec -it mynginx3 /bin/sh or docker exec -it mynginx3 /bin/bash
+    * docker.exe exec -it <container id/name> /bin/sh or docker exec -it <container id/name> /bin/bash
