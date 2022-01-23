@@ -1,6 +1,8 @@
 # nginx
 Test with Nginx / docker
 
+Configured reverse proxy and load balance
+
 * Instructions
   * After clone nginx project, go to nginx directory
   * Create image
